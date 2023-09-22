@@ -1,0 +1,416 @@
+.wrapper{
+    margin-bottom: 100px;
+}
+.carousel{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 300px));
+    gap: 50px;
+    list-style: none;
+    justify-items: center;
+    justify-content: center;
+    padding: 0%;
+    height: auto;
+
+}
+
+
+.card-propia {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    padding-top: 40px; 
+}
+
+.card-propia .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card-propia .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card-propia .front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-propia .front h3 {
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+/* Text Card  */
+.carousel .card-propia h2 {
+    font-weight: 600;
+    font-size: 2.56rem;
+    margin: 35px 0 10px;
+}
+
+.card-propia .front h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 95px;
+    letter-spacing: 1px;
+} 
+
+.card-propia .back h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.card-propia .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card-propia .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card-propia .back .link a {
+    color: #f3f3f3;
+}
+
+.card-propia .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card-propia .back p {
+    letter-spacing: 1px;
+} 
+
+.card-propia:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card-propia:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.carrusel{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+    padding: 0%;
+}
+
+/* ESTILOS DE LIGHTBOX */
+.lightbox-mostrado-calendario {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+.cabecero-lightbox-calendario{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    justify-content: space-between;
+}
+.cerrar-lightbox{
+    padding: .5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: #d3d3d3;
+}
+.texto-imagen-lightbox-calendario{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.titulo-lightbox-calendario{
+    font-size: 3rem;
+    font-family: 'roboto';
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.texto-lightbox-2-calendario-febrero{
+    height: 40%;
+    text-align: justify;
+    padding-right: 0rem ;
+    font-size: 2rem;
+    max-width: 40%;
+}
+
+.texto-lightbox-2-calendario-marzo{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-abril{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-mayo{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-junio{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-julio{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-agosto{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-septiembre{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-calendario-octubre{
+    
+    text-align: justify;
+    padding-right: 5rem ;
+    font-size: 2rem;
+    max-width: 48%;
+}
+
+.texto-lightbox-2-agosto{
+    height: 40%;
+    text-align: justify;
+    font-size: 2rem;
+    max-width: 40%;
+}
+
+
+.contenido-lightbox-mostrado-febrero {
+    height: 68%;
+    width: 85%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+    
+}
+
+.contenido-lightbox-mostrado-marzo {
+    height: 85%;
+    width: 75%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.contenido-lightbox-mostrado-abril {
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.contenido-lightbox-mostrado-mayo {
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.contenido-lightbox-mostrado-junio {
+    height: 95%;
+    width: 85%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+    
+}
+
+.contenido-lightbox-mostrado-julio {
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.contenido-lightbox-mostrado-agosto {
+    height: 88%;
+    width: 85%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+    
+}
+
+.contenido-lightbox-mostrado-septiembre {
+    height: 85%;
+    width: 85%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+    
+}
+
+.contenido-lightbox-mostrado-octubre {
+    height: 75%;
+    width: 75%;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 6rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+
+.imagen-lightbox-directivas-calendario{
+    margin-left: 20%;
+    border-radius: 2rem;
+    width: 35rem;
+}
+
+
+@media (max-width: 1000px) {
+
+    .carousel{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        gap: 5px;
+        height: auto;
+        list-style: none;
+        justify-items: center;
+        justify-content: center;
+        padding: 0%;
+    }
+
+    .imagen-lightbox-directivas-calendario{
+        align-self: flex-end;
+    }
+    .texto-imagen-lightbox-calendario{
+        flex-direction: column;
+    }
+    .texto-lightbox-2-calendario-febrero{
+        font-size: 10px;
+    }
+    .texto-lightbox-2-calendario-marzo{
+        font-size: 12px;
+    }
+    .texto-lightbox-2-calendario-abril{
+        font-size: 10px;
+    }
+    .texto-lightbox-2-calendario-mayo{
+        font-size: 10px;
+    }
+    .texto-lightbox-2-calendario-junio{
+        font-size: 9px;
+    }
+    .texto-lightbox-2-calendario-julio{
+        font-size: 10px;
+    }
+    .texto-lightbox-2-calendario-agosto{
+        font-size: 10px;
+    }
+    .texto-lightbox-2-calendario-septiembre{
+        font-size: 10px;
+    }
+    .texto-lightbox-2-calendario-octubre{
+        font-size: 10px;
+    }
+
+}
+
+
+@media (max-width: 630px) {
+
+    .carousel{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+        gap: 10px;
+        height: auto;
+        list-style: none;
+        justify-items: center;
+        justify-content: center;
+        padding: 0%;
+    }
+}

@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+/* GLOBALES */
+
+h1{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* NAVBAR */
+
+.navegacion{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.548); 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    border-radius: 0 0 2rem 2rem;
+    z-index: 1;
+}
+.navegacion a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+/* VIDEO CON CAPA */
+
+  
+  /* .video-fondo {
+    position: absolute;
+  } */
+  .capa {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 49, 77, 0.8);
+    z-index: 1;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenedor{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* background-color: red; */
+    z-index: 1;
+} 
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen{
+    width: 20rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.contenido h1{
+    color: #fff;
+    font-size: 10rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.contenido h4{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'roboto';
+    font-weight: 300;
+    margin-bottom: 4rem;
+
+}
+
+
+.contenido a{
+    padding: 2rem 3.5rem;
+    color: #00324D;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    background-color: #fff;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* MEDIA-QUERY 1920PX */
+/* MEDIA-QUERY 1920PX */
+
+@media (max-width:768px){
+    .navegacion{
+        width: 90%;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    
+    .ocultar{
+        display: none;
+    }
+        nav .navegacion .elemento-barra-navegacion{
+            
+            font-size: 1.2rem;
+            font-weight: 500;
+            text-align: center;
+        }
+    
+        .contenedor{
+            margin-top: 3rem;
+        }
+    }

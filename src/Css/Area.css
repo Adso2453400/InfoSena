@@ -1,0 +1,127 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+h1{
+    color: #00324D;
+}
+.descripcion-area{
+    font-weight: 300;
+    font-size: 2rem;
+}
+.contenedor-padre-area{
+    width: 100%;
+    height: 100vh;
+    padding: 5rem 2rem 2rem 12rem;
+    /* background-color: red; */
+    background-image: url('/src/images/fondo1-01.png');
+    object-fit: cover;
+    background-size: 100% 100%;
+    border: none;
+
+    background-repeat: no-repeat;
+}
+.contenedor-header-area .flecha-volver-atras{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 5rem;
+    color: #00324D;
+
+}
+.flecha-volver-atras{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 50px;
+    color: #00324D;
+
+}
+.contenedor-padre-elementos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-programas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.programa-area-individual{
+
+    color: #00324D;
+}
+.contenedor-programas h2{
+    font-family: 'roboto';
+    font-size: 2.5rem;
+    color: #00324D;
+}
+.contenedor-programas a{
+    text-decoration: none;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 2rem;
+}
+.contenedor-programas li{
+    list-style: none;
+    
+}
+.contenido-derecha{
+    /* height: 100%; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 5rem;
+
+}
+.contenido-derecha img{
+    width: 60rem;
+    border-radius: 5rem;
+}
+.tarjeta-imagen img{
+    box-shadow: .6rem .6rem .8rem rgba(0, 0, 0, 0.3);
+
+}
+.imagen-area-individual{
+    width: 425px;
+}
+
+/* MEDIA QUERIE */
+@media screen and (max-width:500px){
+
+    .contenedor-padre-area{
+        padding: 2rem;
+        background-image: none;
+        margin-top: 5rem;
+    }
+    
+    .contenedor-padre-elementos{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .contenedor-header-area{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-header-area a .flecha-volver-atras{
+        position: absolute;
+        top: 0;
+    }
+    
+
+}

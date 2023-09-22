@@ -1,0 +1,111 @@
+
+  .contenedor-padre-tecnologo{
+    width : 100%;
+    background-image: url('/src/images/areap2.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .flecha-volver-atras-tecnologo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 50px;
+    color: #00324D;
+
+}
+
+  
+  
+  .tipo-tecnologo{
+    position: absolute;
+    left: 200px;
+    font-size: 60px;
+    top: 50px;
+  }
+  
+  .titulo-tecnologo{
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    font-size: 50px;
+    font-family: 'roboto';
+    font-weight: 400;
+  }
+  
+  .descripcion-programa-tecnologo{
+    position: absolute;
+    top: 80px;
+    margin-bottom: 20px; 
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .contenedor-descripcion-programa-centrado {
+    text-align: center; /* Centra el texto horizontalmente dentro del div */
+    display: flex; /* Usa flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    height: 50vh; /* Opcional: Establece la altura para centrar verticalmente */
+    width: 30%;
+    position: absolute;
+    left: 700px;
+    font-size: 20px;
+    top: 190px;
+  }
+  
+  .inscribirse-tecnologo{
+    position: absolute;
+    left: 850px;
+    top: 500px;
+    background-color: #fff; /* Color de fondo */
+    color: #292b2c; /* Color del texto */
+    border: 1px solid #343a40; /* Borde */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Eliminar subrayado en el enlace dentro del botón */
+    display: inline-block; /* Hacer que el botón se comporte como bloque en línea */
+    border-radius: 4px; /* Borde redondeado */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    font-family: 'roboto';
+  }
+  /* Estilos para el botón de inscripción */
+
+.inscribirse-tecnologo:hover {
+    background-color: #292b2c; /* Cambiar el color de fondo al pasar el mouse */
+    border: 1px solid #292b2c; /* Cambiar el borde al pasar el mouse */
+    color: #fff;
+  }
+  
+
+  .Imagen2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 2;
+    left: 300px;
+    position: absolute;
+    top: 400px;
+  }
+  
+  .Imagen1{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    left: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

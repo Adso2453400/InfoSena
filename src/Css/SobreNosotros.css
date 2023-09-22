@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+.f2 {
+  font-size: 16px;
+  padding: 0%;
+}
+
+/*Estilos menu*/
+/*-------------------------*/
+/*------------------------*/
+.navegacion-areas {
+  margin: 0 auto;
+  width: 70%;
+  background-color: #00324d;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3rem;
+  border-radius: 0 0 2rem 2rem;
+  margin-bottom: 5rem;
+}
+.navegacion-areas a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+/*Fin estilos menu*/
+
+/*Estilos informacion*/
+.contenedor-info {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0px;
+}
+.informacion {
+  width: 60%;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+.h2-informacion {
+  text-align: center;
+  width: 300px;
+  color: white;
+  padding: 12px 12px;
+  background-color: #38b311;
+  border-radius: 0px 15px 15px 0px;
+  margin-bottom: 20px;
+}
+.informacion img {
+  width: 200px;
+  height: 200px;
+}
+.p-informacion {
+  font-size: 16px;
+  text-align: start;
+}
+/*Fin estilos Informacion*/
+
+.h4-testimonio {
+  color: lightgray;
+  text-align: start;
+}
+.f1 {
+  font-size: 14px;
+}
+
+/*Estilos de las tarjetas*/
+/*--------------------------------*/
+.menu-hamburguesa {
+  display: none;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #00324d;
+z-index: 1;  
+  
+
+}
+
+.icon-menu{
+  width: 50px;
+}
+.menuwhite{
+  margin: 10px;
+
+}
+.p-menu-rayas{
+  align-self: center;
+}
+.p-menu-rayas-t{
+  font-size: 25px;
+  color:white;
+  margin: 0;
+}
+.menu-rayas-principal{
+  margin: 5px;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.menu-prin-rayas{
+  align-self: flex-start;
+  display: flex;
+}
+.menu-prin-rayas-2{
+  align-self: flex-end;
+
+}
+.menu-rayas{
+  width: 50px;
+}
+
+
+.img-logo-sena{
+  margin-top: 100px;
+}
+.logo-menu-sena{
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.menus{
+  margin-top: 40px;
+
+}
+.menus a{
+  font-size: 25px;
+}
+.menus-links{
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  transition: transform 0.4s;
+}
+.menus-links a{
+  padding-left: 20px;
+}
+.menus-links :hover{
+  transform: scale(1.2);
+  color: #38b311;
+}
+
+.img-logo-menu-sena{
+  width: 150px;
+  height: 150px;
+
+}
+.menu-hamburguesa-content {
+  width: 60%;
+  height: 100%;
+  display: none;
+  background-color: #00324d;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  z-index: 2;
+}
+.menu-hamburguesax{
+  align-self: end;
+
+}
+.menu-hamburguesa-lista {
+  list-style: none;
+  padding: 18px;
+}
+
+.menu-hamburguesa-lista__item {
+  color: white;
+  padding: 15px 0px 15px 25px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 139px;
+}
+
+.container__title {
+  text-align: center;
+  font-size: 56px;
+  color: black;
+}
+
+.cards {
+  width: 310px;
+  height: 350px;
+  background-color: #ffffff;
+  color: gray;
+  border-radius: 20px;
+  margin-bottom: 21px;
+  border: solid gray;
+  transition: transform 0.3s;
+  box-shadow: 7px 5px 7px gray;
+  overflow: hidden;
+}
+
+.cards-content {
+  padding: 20px;
+}
+
+.cards:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1010px) {
+  .menu-hamburguesa {
+    display: block;
+  }
+  
+  .container-menu {
+    display: none;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*Preguntas frecuentes*/
+/*-----------------------------------*/
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Estilos de la sección FAQ */
+.h1-faq {
+  color: black;
+  margin-bottom: 30px;
+}
+.faq {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.faq-item {
+  width: 90%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.question {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.answer {
+  font-size: 14px;
+  padding: 20px;
+  display: none;
+  color: black;
+}
+
+.show-answer {
+  display: block;
+  padding: 0%;
+}
+
+@media screen and (max-width: 850px) {
+  .faq h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  @media screen and (max-width: 550px) {
+    .faq h1 {
+      font-size: 34px;
+      line-height: 42px;
+    }
+    .question {
+      margin: 1rem 0;
+    }
+    .answer {
+      margin: 1rem 0;
+    }
+    .show-answer {
+      margin: 1rem 0;
+    }
+  }
+}
+/*Fin estilos preguntas frecuentes*/
+/*----------------------------------------*/
+
+/*Footer*/
+/*-----------------------------*/
+.section_padding {
+  padding: 4rem 4rem;
+}
+.footer {
+  background-color: #0d2033;
+  width: 100%;
+}
+.sb_footer {
+  display: flex;
+  flex-direction: column;
+}
+.sb_footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.sb_footer-links_div {
+  width: 150px;
+  margin: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.f3 {
+  font-size: 13px;
+  color: #ffffff;
+}
+h4 {
+  color: white;
+}
+.h4-footer {
+  margin-bottom: 20px;
+}
+.h4-footer,
+.f3 {
+  text-align: start;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.sociales {
+  display: flex;
+  flex-direction: row;
+}
+.sociales img {
+  width: 80%;
+}
+.sb_footer-links_div h4 {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 0.9rem;
+  color: white;
+}
+.sb_footer-links_div .f3 {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+
+.sb_footer-below {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0.2rem;
+}
+hr {
+  color: white !important;
+  width: 100%;
+}
+.derechos{
+  padding-left: 10px;
+}
+.sb_footer-copyright .f3 {
+  font-size: 13px;
+  line-height: 15px;
+  color: white;
+  font-weight: 600;
+  align-items: center;
+}
+@media screen and (max-width: 850px) {
+  .sb_footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .sb_footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .sb_footer-links div {
+    margin: 1rem 0;
+  }
+  .sb_footer-btn .f2 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .sb_footer-below {
+    flex-direction: column;
+    justify-content: left;
+  }
+  .sb_footer-below-links {
+    flex-direction: column;
+  }
+  .sb_footer-below-links .f2 {
+    margin-left: 0rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 40px) {
+  .sb_footer-heading h1 {
+    font-size: 27px;
+    line-height: 38px;
+  }
+}

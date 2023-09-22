@@ -1,0 +1,52 @@
+/* Estilos base para pantallas pequeñas */
+.gallery2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr); /* Una columna en pantallas pequeñas */
+  gap: 0px;
+  padding:80px;
+}
+
+.video-container {
+  position: relative;
+  margin-bottom: 10px; /* Espacio entre cada video y botón */
+  
+}
+
+/* Media query para pantallas medianas */
+@media screen and (min-width: 768px) {
+  .gallery2 {
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas en pantallas medianas */
+  }
+}
+
+/* Media query para pantallas grandes */
+@media screen and (min-width: 1024px) {
+  .gallery2 {
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas en pantallas grandes */
+    gap: 30px; /* Espacio entre elementos aumentado */
+  }
+}
+
+/* Estilos para hacer los videos responsive */
+.video-element {
+  max-width: 100%; /* Ajusta el ancho máximo del video */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+/* Estilos para hacer los botones responsive */
+.btn-primary {
+  display: block; /* Hace que los botones sean elementos de bloque */
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  margin-top: 10px; /* Espacio entre el video y el botón */
+  font-size: 13px;
+}
+ .titulo_galeria_pisos {
+  padding-top: 5px;
+  margin-bottom: -50px;
+ }
+/* Estilos para el título de video */
+.video-title {
+  text-align: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,391 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.margen-nav{
+    margin: 0 auto;
+    
+}
+.contenedor-padre-bienestar{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #00AEEF; */
+
+
+}
+.contenedor-bienestar{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.imagen1-bienestar{
+    width: 450px;
+}
+h1{
+ font-family: 'roboto';
+}
+.titulo-seccion-2-container {
+  text-align: center; 
+  border: 2px solid black; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.titulo-seccion-2 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* SECCION 2 */
+.titulo-seccion-2{
+    width: 40rem;
+}
+.contenedor-bienestar-seccion-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+
+}
+.parte-izquierda-bienestar{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.imagen-2-bienestar{
+    width: 450px;
+}
+.boton-lightbox-seccion-2 {
+  font-size: 2rem;
+  font-family: 'roboto';
+  text-decoration: none;
+  margin-top: 2rem;
+  text-align: end;
+  padding: 1rem 5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #CCC;
+  color: black;
+  transition: box-shadow 0.3s; 
+}
+
+.boton-lightbox-seccion-2:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} 
+
+.lightbox-seccion-2-final{
+  font-size: 2rem;
+  font-family: 'roboto';
+  text-decoration: none;
+  margin-top: 2rem;
+  text-align: end;
+  padding: 1rem 5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: #CCC;
+  color: black;
+} 
+
+
+/* SECCIÓN 3 */
+
+.contenedor-padre-bienestar-seccion-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50rem;
+    /* background-color: #00AEEF; */
+
+}
+
+  .circulo {
+    margin-left: 10rem;
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: .3rem solid #006d95;
+  }
+  
+  .circulo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .circulo-1 {
+    width: 20rem;
+    height: 20rem;
+    top: 12rem;
+    left: -8rem;
+  }
+  
+  .circulo-2 {
+    top: 4rem;
+    right: -10rem;
+  }
+  
+  .circulo-3 {
+    bottom: 5rem;
+    left: -15rem;
+}
+.circulo-3 img{
+    object-position: top right;
+
+}
+  
+  .circulo-4 {
+    width: 18rem;
+    height: 18rem;
+    bottom: 11rem;
+  }
+
+  .color-azul{
+    background-color: #00AEEF;
+}
+
+
+
+/* ESTILOS DE LIGHTBOX */
+.lightbox-mostrado {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+.cabecero-lightbox{
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  justify-content: space-between;
+}
+.cerrar-lightbox{
+  padding: .5rem;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: #d3d3d3;
+}
+.texto-imagen-lightbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 2rem  1rem  0; */
+}
+
+.contenido-lightbox-mostrado {
+  
+  width: 50%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+  
+}
+.titulo-lightbox{
+  font-size: 3rem;
+  font-family: 'roboto';
+  margin: 0;
+}
+
+.texto-lightbox-2{
+  text-align: justify;
+  padding-right: 2rem ;
+  font-size: 2rem;
+}
+.imagen-lightbox-directivas{
+  border-radius: 2rem;
+  width: 30rem;
+}
+
+  
+/* MEDIA QUERIA 768PX */
+@media (max-width : 768px) {
+  /* Estilos generales */
+/* Barra de navegación */
+.navegacion-areas {
+  display: flex;
+  flex-wrap: wrap; /* Para manejar enlaces en varias líneas en tamaños pequeños */
+}
+
+.elemento-barra-navegacion {
+  font-size: 1.6rem; /* Tamaño de fuente para enlaces */
+  margin-right: 1rem; /* Espaciado entre enlaces */
+}
+
+/* Cabecero */
+.contenedor-padre-bienestar {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  text-align: center; /* Centrar el contenido en pantallas más pequeñas */
+}
+
+.contenedor-bienestar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Cambia a diseño de columna en tamaños pequeños */
+  align-items: center; /* Centrar contenido en pantallas pequeñas */
+}
+.titulo-bienestar {
+  font-size: 3rem; /* Tamaño de fuente para encabezados en pantallas pequeñas */
+  text-align: center;
+  
+}
+
+.imagen1-bienestar img {
+  width: 100%; /* Ajustar imagen al ancho del contenedor */
+  max-height: auto; /* Mantener relación de aspecto */
+}
+.titulo-bienestar {
+  font-size: 3rem; /* Tamaño de fuente para encabezados en pantallas pequeñas */
+  text-align: center;
+  
+}
+.contenedor-bienestar-seccion-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.parte-izquierda-bienestar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen-bienestar-enfermeria{
+  width: 275px;
+  
+}
+.imagen-bienestar-enfermeria{
+  width: 275px;
+  
+}
+
+/* Sección de Enfermería */
+.titulo-seccion-2 {
+  font-size: 1.5rem; /* Tamaño de fuente para texto en pantallas pequeñas */
+  text-align: left;
+}
+.titulo-seccion-2-container{
+  width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  box-sizing: border-box;
+}
+
+.boton-lightbox-seccion-2 {
+  font-size: 1.6rem; /* Tamaño de fuente para el botón en pantallas pequeñas */
+}
+
+/* Círculos de integrantes */
+.circulo-container {
+  display: flex;
+  flex-wrap: wrap; /* Alinear en círculos en tamaños pequeños */
+  justify-content: center; /* Centrar círculos en tamaños pequeños */
+}
+
+.circulo {
+  margin: 1rem; /* Espaciado entre círculos */
+}
+
+/* Slider */
+.slider-bienestar {
+  padding: 2rem 0; /* Espaciado en la parte superior e inferior */
+}
+
+}
+
+
+/* 400px de media querie */
+@media (max-width : 500px) {
+  .titulo-seccion-2-container{
+    width: 80%; /* Asegura que ocupe todo el ancho disponible */
+    box-sizing: border-box;
+  }
+  .titulo-seccion-2 {
+    font-size: 1.5rem; /* Tamaño de fuente para texto en pantallas pequeñas */
+    text-align: center;
+    
+    width: 100%;
+  }
+  .imagen-2-bienestar{
+    display: flex;
+    justify-content: center;
+  }
+  .imagen-bienestar-enfermeria{
+    margin: 0;
+    width: 225px;
+  }
+  /* LIGHTBOX ENFERMERÍA */
+  .contenido-lightbox-mostrado{
+    width: 80%;
+    height: 65%;
+  }
+  .texto-imagen-lightbox{
+    display: flex;
+    flex-direction: column;
+  }
+  .texto-lightbox-2{
+    font-size: 1.5rem;
+  }
+  .imagen-lightbox-directivas{
+    width: 200px;
+  }
+  .contenedor-padre-bienestar-seccion-3{
+    margin-top: 50px;
+  }
+  .circulo-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .circulo-1, .circulo-2, .circulo-3,.circulo-4{
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .lightbox-mostrado-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+  }
+
+
+
+  
+}
+  

@@ -1,0 +1,29 @@
+.texto-tecnicos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  padding: 0 14vw 0 3vw;
+  margin: 0%;
+  bottom: 50%;
+
+}
+.texto-tecnicos__title{
+  font-size: 35px;
+  text-align: start;
+}
+
+.texto-tecnicos__parrafo{
+  /* line-height: 30px; */
+  font-size: 12px;
+  text-align: start;
+}
+
+/* Ajusta el tamaño de fuente para pantallas pequeñas */
+/* @media screen and (max-width: 768px) {
+  .texto-tecnicos {
+      font-size: 1.5rem; 
+  }
+} */
+  
+    
+  
+    
