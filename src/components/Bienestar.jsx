@@ -103,11 +103,7 @@ export const Bienestar = () => {
               </div>
               <div className="texto-imagen-lightbox">
                 <p className="texto-lightbox-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Soluta voluptas adipisci aut id omnis nostrum, laboriosam
-                  quaerat harum aspernatur nobis ipsa eveniet hic, officiis
-                  fuga? Aliquid, sapiente illo beatae cum molestiae et commodi
-                  aperiam. Atque magni incidunt molestiae reiciendis alias.
+                Contribuir al desarrollo humano integral de los aprendices, por medio de la definición de lineamientos que se implementen de manera articulada y gradual con el proceso de formación profesional integral, con el fin de fortalecer la cultura de bienestar entre los aprendices y la comunidad educativa.
                 </p>
                 <img
                   className="imagen-lightbox-directivas"
@@ -124,16 +120,16 @@ export const Bienestar = () => {
         <div className="contenedor-padre-bienestar-seccion-3">
           <div className="circulo-container">
             <div className="circulo circulo-1">
-              <img src="/src/images/integrante-1.png" alt="Image 1" />
+              <img src="/src/images/img2.jpeg" alt="Image 1" />
             </div>
             <div className="circulo circulo-2">
-              <img src="/src/images/integrante-2.png" alt="Image 2" />
+              <img src="/src/images/img2.jpeg" alt="Image 2" />
             </div>
             <div className="circulo circulo-3">
-              <img src="/src/images/integrante-3.png" alt="Image 3" />
+              <img src="/src/images/img1.jpeg" alt="Image 3" />
             </div>
             <div className="circulo circulo-4">
-              <img src="/src/images/integrante-4.jpg" alt="Image 4" />
+              <img src="/src/images/img4.jpeg" alt="Image 4" />
             </div>
           </div>
           <div className="parte-izquierda-bienestar">
@@ -172,8 +168,7 @@ export const Bienestar = () => {
               </div>
               <div className="texto-imagen-lightbox">
                 <p className="texto-lightbox-2">
-                Con respecto al círculo incorporado en la estructura organizativa, se requiere modificar en
-el sentido que, el Consejo Regional o Distrital, deberá quedar con la línea horizontal de
+                Con respecto al círculo incorporado en la estructura organizativa, se requiere modificar en el sentido que, el Consejo Regional o Distrital, deberá quedar con la línea horizontal de
 autoridad y desaparecer la línea de asesor como aparece en la gráfica anterior; teniendo en
 cuenta lo establecido en la “Ley 119 de 1994 Artículo 16. Dirección y Administración
 Regional. La Dirección y Administración de las regionales de la Entidad estará a cargo de un
@@ -190,11 +185,7 @@ consejo regional y un director regional”.
         )}
       </section>
 
-      <section>
-        <div className="slider-bienestar">
-          <Slider />
-        </div>
-      </section>
+   
       <Footer/>
       <MenuHamburguesa/>
     </>

@@ -22,6 +22,7 @@ export const VideoGalleryPisos = () => {
       videoUri: video1,
       isLarge: true,
       title: 'Piso 1',
+      showButton: true,
       buttonHref: '/galeria', // Add the desired href for button 1
     },
     {
@@ -29,6 +30,7 @@ export const VideoGalleryPisos = () => {
       videoUri: video2,
       isLarge: true,
       title: 'Piso 2',
+      showButton: true,
       buttonHref: '/galeria/piso2', // Add the desired href for button 2
     },
     {
@@ -36,6 +38,7 @@ export const VideoGalleryPisos = () => {
       videoUri: video3,
       isLarge: true,
       title: 'Piso 3',
+      showButton: true,
       buttonHref: '/galeria/piso3', // Add the desired href for button 3
     },
     {
@@ -43,6 +46,7 @@ export const VideoGalleryPisos = () => {
       videoUri: video4,
       isLarge: true,
       title: 'Piso 4',
+      showButton: true,
       buttonHref: '/galeria/piso4', // Add the desired href for button 4
     },
     {
@@ -50,12 +54,14 @@ export const VideoGalleryPisos = () => {
       videoUri: video5,
       isLarge: true,
       title: 'Piso 5',
+      showButton: true,
       buttonHref: '/galeria/piso5', // Add the desired href for button 5
     },
     {
       id: 6,
       videoUri: video6,
       title: 'CDITI',
+      showButton: false,
       buttonHref: 'https://example.com/video6', // Add the desired href for button 6
     },
     {
@@ -63,6 +69,7 @@ export const VideoGalleryPisos = () => {
       videoUri: video7,
       isLarge: true,
       title: 'Zonas exteriores',
+      showButton: true,
       buttonHref: '/galeria/piso_Exterior', // Add the desired href for button 7
     },
     {
@@ -104,9 +111,11 @@ export const VideoGalleryPisos = () => {
               >
                 <source src={item.videoUri} type="video/webm" />
               </video>
-              <a href={item.buttonHref} className={`btn btn-primary btn-${index }`}>
-                Ver más  {/* Unique label for each button */}
-              </a>
+              {item.showButton && (
+      <a href={item.buttonHref} className={`btn btn-primary btn-${index}`}>
+        Ver más
+      </a>
+    )}
             </div>
           );
         })}

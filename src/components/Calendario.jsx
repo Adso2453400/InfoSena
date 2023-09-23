@@ -130,18 +130,12 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-febrero">
-                                    10 de febrero. Taller aprendices FIC adaptación al cambio 
-                                    <br></br>
-                                    <br></br>
-                                    15 de febrero. Campaña de promoción de estilos de vida saludables - Taller preparación laboral y uso de la poliza
-                                    <br></br>
-                                    <br></br>
-                                    20 de febrero. Visita de rectores y coordinadores
-                                    <br></br>
-                                    <br></br>
-                                    21 de febrero. Taller educación sexual
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>10 de febrero. Taller aprendices FIC adaptación al cambio.</li>
+                                            <li>15 de febrero. Campaña de promoción de estilos de vida saludables - Taller preparación laboral y uso de la poliza.</li>
+                                            <li>20 de febrero. Visita de rectores y coordinadores.</li>
+                                            <li>21 de febrero. Taller educación sexual.</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/febrero_1.jpg" alt=""/>
                                 </div>
@@ -186,21 +180,13 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-marzo">
-                                    3 de marzo. Campaña día mudial de la obesidad
-                                    <br></br>
-                                    <br></br>
-                                    7 de marzo. Debate de aprendices candidatos a representantes
-                                    <br></br>
-                                    <br></br>
-                                    8 de marzo. Conmemoración dia de la mujer
-                                    <br></br>
-                                    <br></br>
-                                    15 de marzo. Eleccion de representantes
-                                    <br></br>
-                                    <br></br>
-                                    29 de marzo. Talleres prevencion de deserción
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>3 de marzo. Campaña día mudial de la obesidad.</li>
+                                            <li>7 de marzo. Debate de aprendices candidatos a representantes.</li>
+                                            <li>8 de marzo. Conmemoración dia de la mujer.</li>
+                                            <li>15 de marzo. Eleccion de representantes.</li>
+                                            <li>29 de marzo. Talleres prevencion de deserción.</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/marzo_1.jpeg" alt=""/>
                                 </div>
@@ -244,18 +230,12 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-abril">
-                                    13 de abril. Inicio de torneo de futbol y sorteo de partidos
-                                    <br></br>
-                                    <br></br>
-                                    17 de abril. Inicio de convocatoria para apoyo de alimentación
-                                    <br></br>
-                                    <br></br>
-                                    24 de abril. Taller habitos y estilos de vida saludables
-                                    <br></br>
-                                    <br></br>
-                                    26 de abril. Campaña prevención de acoso sexual
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>13 de abril. Inicio de torneo de futbol y sorteo de partidos.</li>
+                                            <li>17 de abril. Inicio de convocatoria para apoyo de alimentación.</li>
+                                            <li>24 de abril. Taller habitos y estilos de vida saludables.</li>
+                                            <li>26 de abril. Campaña prevención de acoso sexual.</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/abril_1.jpeg" alt=""/>
                                 </div>
@@ -299,21 +279,13 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-mayo">
-                                    2 de mayo. Divulgación de festival de talentos
-                                    <br></br>
-                                    <br></br>
-                                    4 de mayo. Campaña prevención de acoso sexual: performance y sensibilización
-                                    <br></br>
-                                    <br></br>
-                                    15 de mayo. Inscripción festival de talentos
-                                    <br></br>
-                                    <br></br>
-                                    17 de mayo. Dia de la afrocolombianidad - Feria Artesanal - Talleres, comida y folclor
-                                    <br></br>
-                                    <br></br>
-                                    18 de mayo. Taller virtual Planificación familiar - Taller reglamento del aprendiz y prevención de acoso con fiscalía
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-mayo"> 
+                                            <li>2 de mayo. Divulgación de festival de talentos.</li>
+                                            <li>4 de mayo. Campaña prevención de acoso sexual.</li>
+                                            <li>15 de mayo. Inscripción festival de talentos.</li>
+                                            <li>17 de mayo. Dia de la afrocolombianidad.</li>
+                                            <li>18 de mayo. Taller virtual de Planificación familiar. </li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/mayo_1.jpeg" alt=""/>
                                 </div>
@@ -357,30 +329,16 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-junio">
-                                    1 de junio. Clases musicales aula cultural SENAverso
-                                    <br></br>
-                                    <br></br>
-                                    4 de junio. Caminata de parque Olaya a Cerro Canceles
-                                    <br></br>
-                                    <br></br>
-                                    5 de junio. Taller prevención de delitos informaticos con invitado de la policía
-                                    <br></br>
-                                    <br></br>
-                                    7 de junio. Evento de grafitería
-                                    <br></br>
-                                    <br></br>
-                                    14 de junio. Taller en articulación con biblioteca: Escritura creativa y redacción
-                                    <br></br>
-                                    <br></br>
-                                    15 de junio. Taller liderazgo para voceros
-                                    <br></br>
-                                    <br></br>
-                                    22 de junio. Campaña uso del condón
-                                    <br></br>
-                                    <br></br>
-                                    23 de junio. Dia del aprendiz
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>1 de junio. Clases musicales aula cultural SENAverso.</li>
+                                            <li>4 de junio. Caminata de parque Olaya a Cerro Canceles.</li>
+                                            <li>5 de junio. Taller prevención de delitos informaticos con invitado de la policía.</li>
+                                            <li>7 de junio. Evento de grafitería.</li>
+                                            <li>14 de junio. Taller en articulación con biblioteca: Escritura creativa y redacción.</li>
+                                            <li>15 de junio. Taller liderazgo para voceros.</li>
+                                            <li>22 de junio. Campaña uso del condón.</li>
+                                            <li>23 de junio. Dia del aprendiz</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/junio_1.jpeg" alt=""/>
                                 </div>
@@ -424,18 +382,12 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-julio">
-                                    17 de julio. Taller sobre derechos sexuales y planificación familiar
-                                    <br></br>
-                                    <br></br>
-                                    18 de julio. Saloneo (musica/ deportes/ y salud sexual)
-                                    <br></br>
-                                    <br></br>
-                                    19 de julio. Taller de Responsabilidad
-                                    <br></br>
-                                    <br></br>
-                                    24 de julio. Taller de confianza en si mismo, manejo de las emociones y la interacción con los demás
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>17 de julio. Taller sobre derechos sexuales y planificación familiar.</li>
+                                            <li>18 de julio. Saloneo (musica/ deportes/ y salud sexual).</li>
+                                            <li>19 de julio. Taller de Responsabilidad.</li>
+                                            <li>24 de julio. Taller de confianza en si mismo, manejo de las emociones y la interacción con los demás.</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/julio_1.jpeg" alt=""/>
                                 </div>
@@ -479,24 +431,14 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-agosto">
-                                    2 de agosto. Zona de escucha. Principales causas de consumo, rutas de atención y centros de escucha.
-                                    <br></br>
-                                    <br></br>
-                                    9 de agosto. Cine escuela - Roger y sandra de biblioteca.
-                                    <br></br>
-                                    <br></br>
-                                    10 de agosto. Taller virtual de liderazgo.
-                                    <br></br>
-                                    <br></br>
-                                    14 de agosto. Talleres cultuparche. Arte, danza y teatro.
-                                    <br></br>
-                                    <br></br>
-                                    28 de agosto. Tomas de prueba rapida VIH.
-                                    <br></br>
-                                    <br></br>
-                                    31 de agosto. Mirador Tambo - Festival de cometas.
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>2 de agosto. Zona de escucha. Principales causas de consumo, rutas de atención y centros de escucha.</li>
+                                            <li>9 de agosto. Cine escuela - Roger y sandra de biblioteca.</li>
+                                            <li>10 de agosto. Taller virtual de liderazgo.</li>
+                                            <li>14 de agosto. Talleres cultuparche. Arte, danza y teatro.</li>
+                                            <li>28 de agosto. Tomas de prueba rapida VIH.</li>
+                                            <li>31 de agosto. Mirador Tambo - Festival de cometas.</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/agosto_1.jpeg" alt=""/>
                                 </div>
@@ -540,21 +482,13 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-septiembre">
-                                    14 de septiembre. Talleres con bienestar para aprendices
-                                    <br></br>
-                                    <br></br>
-                                    17 de septiembre. Taller sobre derechos sexuales y planificación familiar - Donaciones canasta Solidaridad
-                                    <br></br>
-                                    <br></br>
-                                    19 de septiembre. Taller de responsabilidad -actitud aptitud y compromiso-
-                                    <br></br>
-                                    <br></br>
-                                    25 de septiembre. Taller de escritura creativa y oratoria
-                                    <br></br>
-                                    <br></br>
-                                    31 de septiembre. Cierre selección de talentos Risaralda
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>14 de septiembre. Talleres con bienestar para aprendices.</li>
+                                            <li>17 de septiembre. Taller sobre derechos sexuales y planificación familiar - Donaciones canasta Solidaridad.</li>
+                                            <li>19 de septiembre. Taller de responsabilidad -actitud aptitud y compromiso.</li>
+                                            <li>25 de septiembre. Taller de escritura creativa y oratoria.</li>
+                                            <li>31 de septiembre. Cierre selección de talentos Risaralda</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/septiembre_1.jpeg" alt=""/>
                                 </div>
@@ -598,18 +532,12 @@ const cerrarLightbox9 = () => {
                                 </div>
                                 <div className="texto-imagen-lightbox-calendario">
                                     <p className="texto-lightbox-2-calendario-octubre">
-                                    3 de octubre. Cumbre nacional representantes de aprendices 2023 -Evento nacional-
-                                    <br></br>
-                                    <br></br>
-                                    10 de octubre. Jornada de donación de sangre.
-                                    <br></br>
-                                    <br></br>
-                                    13 de octubre. Taller de hábitos saludables y gestión de tiempo para descanso.
-                                    <br></br>
-                                    <br></br>
-                                    25 de octubre. Taller de preparación de vida laboral.
-                                    <br></br>
-                                    <br></br>
+                                        <ul className="ul-responsive">
+                                            <li>3 de octubre. Cumbre nacional representantes de aprendices 2023 -Evento nacional.</li>
+                                            <li>10 de octubre. Jornada de donación de sangre.</li>
+                                            <li>13 de octubre. Taller de hábitos saludables y gestión de tiempo para descanso.</li>
+                                            <li>25 de octubre. Taller de preparación de vida laboral.</li>
+                                        </ul>
                                     </p>
                                     <img className="imagen-lightbox-directivas-calendario" src="/src/images/octubre_1.jpeg" alt=""/>
                                 </div>

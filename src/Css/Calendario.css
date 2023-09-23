@@ -172,14 +172,14 @@
 
 
 .titulo-lightbox-calendario{
-    font-size: 3rem;
+    font-size: 2,5rem;
     font-family: 'roboto';
     margin: 0;
     padding-bottom: 50px;
 }
 
 .texto-lightbox-2-calendario-febrero{
-    height: 40%;
+    /* height: 40%; */
     text-align: justify;
     padding-right: 0rem ;
     font-size: 2rem;
@@ -214,7 +214,7 @@
     
     text-align: justify;
     padding-right: 5rem ;
-    font-size: 2rem;
+    font-size: 170%;
     max-width: 48%;
 }
 
@@ -251,7 +251,7 @@
 }
 
 .texto-lightbox-2-agosto{
-    height: 40%;
+    /* height: 40%; */
     text-align: justify;
     font-size: 2rem;
     max-width: 40%;
@@ -259,7 +259,7 @@
 
 
 .contenido-lightbox-mostrado-febrero {
-    height: 68%;
+    /* height: 68%; */
     width: 85%;
     background-color: #fff;
     padding: 3rem;
@@ -269,7 +269,7 @@
 }
 
 .contenido-lightbox-mostrado-marzo {
-    height: 85%;
+    /* height: 89%; */
     width: 75%;
     background-color: #fff;
     padding: 3rem;
@@ -278,7 +278,7 @@
 }
 
 .contenido-lightbox-mostrado-abril {
-    height: 75%;
+    /* height: 85%; */
     width: 75%;
     background-color: #fff;
     padding: 3rem;
@@ -287,16 +287,16 @@
 }
 
 .contenido-lightbox-mostrado-mayo {
-    height: 75%;
+    /* height: 100%; */
     width: 75%;
     background-color: #fff;
-    padding: 3rem;
+    padding: 2rem;
     border-radius: 6rem;
     box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
 }
 
 .contenido-lightbox-mostrado-junio {
-    height: 95%;
+    /* height: 100%; */
     width: 85%;
     background-color: #fff;
     padding: 3rem;
@@ -306,7 +306,7 @@
 }
 
 .contenido-lightbox-mostrado-julio {
-    height: 75%;
+    height: 78%;
     width: 75%;
     background-color: #fff;
     padding: 3rem;
@@ -315,7 +315,7 @@
 }
 
 .contenido-lightbox-mostrado-agosto {
-    height: 88%;
+    height: 95%;
     width: 85%;
     background-color: #fff;
     padding: 3rem;
@@ -325,7 +325,7 @@
 }
 
 .contenido-lightbox-mostrado-septiembre {
-    height: 85%;
+    height: 95%;
     width: 85%;
     background-color: #fff;
     padding: 3rem;
@@ -335,7 +335,7 @@
 }
 
 .contenido-lightbox-mostrado-octubre {
-    height: 75%;
+    height: 79%;
     width: 75%;
     background-color: #fff;
     padding: 3rem;
@@ -369,6 +369,7 @@
     }
     .texto-imagen-lightbox-calendario{
         flex-direction: column;
+       
     }
     .texto-lightbox-2-calendario-febrero{
         font-size: 10px;
@@ -380,7 +381,16 @@
         font-size: 10px;
     }
     .texto-lightbox-2-calendario-mayo{
-        font-size: 10px;
+        font-size: 15px;
+        padding: 0%;
+        margin: 0%;
+    }
+    .ul-responsive{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(180px,200px));
+        padding: 0;
+        justify-content: center;
+        gap: 10px;
     }
     .texto-lightbox-2-calendario-junio{
         font-size: 9px;

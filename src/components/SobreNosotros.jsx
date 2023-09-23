@@ -160,7 +160,7 @@ function TestimonioCard(props) {
       <div className="cards-content">
         <img src={logo} alt="Imagen Perfil"></img>
         <h2>{props.title}</h2>
-        <h4 className="h4-testimonio">Aprendiz</h4>
+        <h4 className="h4-testimonio">{props.rol}</h4>
         <br></br>
         <img src={img} alt="comillas"></img>
         <p className="f1">{props.paragraph}</p>
@@ -378,25 +378,29 @@ export function Nosotros() {
       <TestimonioTitle />
       <div className="container">
         <TestimonioCard
-          title={"¿Como es la formación?"}
+          title={"Juan Camilo"}
+          rol="Aprendiz"
           paragraph={
             "Los programas se adaptan de manera satisfactoria a los conocimientos necesarios en el mundo laboral"
           }
         />
         <TestimonioCard
-          title={"Juan carlos habla de bienestar al aprendiz"}
+          title={"Juan Pablo"}
+          rol="Aprendiz"
           paragraph={
             "En bienestar al aprendiz nos brindan ayuda, informacion y realizan actividades para los aprendices, me parece una oficina muy importante"
           }
         />
         <TestimonioCard
-          title={"Instructor Jose Perez habla de los aprendices"}
+          title={"Instructor Jose Perez "}
+          rol="Instructor"
           paragraph={
             "Los aprendices son muy maduros y tienen mucha disposición, aqui los prepararemos para un ambiente laboral "
           }
         />
         <TestimonioCard
-          title={"Jefrey describe el patrocinio"}
+          title={"Jefrey "}
+          rol="Funcionario Sena"
           paragraph={
             "El patrocinio es un apoyo economico que las empresas le dan a los aprendices que se encuntran en formacion para apoyarlos en su proceso "
           }
